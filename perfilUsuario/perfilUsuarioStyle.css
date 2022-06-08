@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.small-size-text {
+    font-size: 0.7em;
+}
+
+.negative-margin {
+    margin-bottom: -0.8em;
+}
+
+.full-size {
+    width: 100%;
+}
+
+.form-control:focus {
+    box-shadow: none;
+  }
