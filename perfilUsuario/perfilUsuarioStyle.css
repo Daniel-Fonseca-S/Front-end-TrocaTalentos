@@ -17,4 +17,11 @@
 
 .form-control:focus {
     box-shadow: none;
-  }
+}
+
+.input-containers>div>p {
+    font-size: small;
+    visibility: hidden;
+    margin-bottom: -0.6em;
+    margin-left: 1em;
+}

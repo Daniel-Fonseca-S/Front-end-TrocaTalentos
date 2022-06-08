@@ -1,18 +1,12 @@
-let ipt = document.querySelector("input");
-
 function selectedInput(input) {
-    let tagp = input.parentNode.querySelector("p");
-    if (tagp.innerHTML == "") {
-        tagp.innerHTML = input.placeholder;
-        tagp.classList = "ms-3 font-monospace small-size-text bg-light negative-margin"
-        input.style.borderTop = "none";
-        input.parentNode.insertBefore(tagp, input)
-    }
-}
+    p = input.parentNode.querySelector("p");
 
-function unselectedInput(input) {
     if (input.value == "") {
-        input.parentNode.removeChild(input.parentNode.querySelector("p"));
+        p.style.visibility = "hidden";
         input.style.borderTop = "solid 1px lightgray";
+    } else {
+        p.style.visibility = "visible";
+        input.style.borderTop = "none";
     }
+
 }
