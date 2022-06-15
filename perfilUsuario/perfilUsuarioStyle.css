@@ -17,6 +17,7 @@
 
 .form-control:focus { 
     box-shadow: none;
+    border: solid 1px lightblue;
 }
 
 .input-containers>div>p {
