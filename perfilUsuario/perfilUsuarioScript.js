@@ -1,5 +1,5 @@
 function selectedInput(input) {
-    p = input.parentNode.querySelector("p");
+    let p = input.parentNode.querySelector("p");
 
     if (input.value == "") {
         p.style.visibility = "hidden";
