@@ -15,9 +15,10 @@ import { RouterLink, RouterView } from "vue-router";
 .body_layout {
   background-color: #e9e9e9;
 }
+
 .header_app {
   height: 10vh;
-  box-shadow: 0px 4px 16px 5px rgba(0,0,0,0.33) !important;
+  box-shadow: 0px 4px 16px 5px rgba(0, 0, 0, 0.33) !important;
   display: flex;
   align-items: center;
   padding-left: 30px;
